@@ -21,7 +21,7 @@
   opacity: 0.5;
   margin-bottom: 100px;
 }
-form {
+.index-form {
   display: flex;
   flex-direction: column;
   padding-left: 10px;
