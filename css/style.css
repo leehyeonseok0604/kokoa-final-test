@@ -1,76 +1,9 @@
 @import "css/reset.css";
+@import "components/header-bar.css";
+@import "screen/kokoa-clone-2.css";
 * {
   box-sizing: border-box;
 }
 body {
   height: 100vh;
-}
-.header-bar {
-  display: flex;
-  justify-content: center;
-}
-.header-bar span {
-  width: 33%;
-}
-.header-bar span:nth-child(2) {
-  display: flex;
-  justify-content: center;
-}
-.header-bar span:last-child {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-/*--------------------------------header-bar-css---------------------*/
-/*------------------------------welcome----css----------------------*/
-.welcome {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.welcome p:first-child {
-  margin-top: 80px;
-  font-size: 25px;
-  margin-bottom: 15px;
-  font-weight: 600;
-}
-.welcome p:nth-child(2) {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  opacity: 0.5;
-}
-.welcome p:last-child {
-  margin-top: 0px;
-  opacity: 0.5;
-  margin-bottom: 100px;
-}
-form {
-  display: flex;
-  flex-direction: column;
-  padding-left: 10px;
-  padding-right: 20px;
-}
-.eandp {
-  margin-top: 20px;
-  padding-bottom: 15px;
-  border: none;
-  border-bottom: 1px solid rgba(1, 1, 1, 0.2);
-  font-size: 20px;
-  opacity: 0.7;
-}
-.login {
-  margin-top: 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: green;
-  font-size: 25px;
-  height: 60px;
-  color: rgba(1, 1, 1, 0.8);
-  margin-bottom: 15px;
-}
-.button {
-  border: none;
-  background-color: white;
-  color: blue;
 }
