@@ -46,12 +46,46 @@
 /*-------------------------------------inf css----------------------------------*/
 /*----------------------------------img and data--big css------------------------*/
 .friends-img-and-data--big {
+  margin-top: 20px;
   padding: 0px 15px;
   display: flex;
-  justify-content: space-between;
 }
 .friends-img-and-data__img {
   width: 80px;
   height: 80px;
   border-radius: 30px;
+  position: relative;
+}
+.friends-img-and-data__data {
+  position: absolute;
+  margin-left: 100px;
+}
+.friends-img-and-data__data p {
+  margin: 0px;
+}
+.friends-img-and-data__data p:first-child {
+  margin-top: 5px;
+  font-size: 30px;
+}
+.friends-img-and-data__data p:last-child {
+  color: rgba(1, 1, 1, 0.5);
+}
+/*----------------------------------img and data--big css------------------------*/
+/*-------------------------------------channel css-------------------------------*/
+.friends-channel {
+  margin-top: 20px;
+  padding: 0px 15px;
+  border-top: 1px solid rgba(1, 1, 1, 0.3);
+}
+.friends-channel summary {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(1, 1, 1, 0.5);
+}
+
+.friends-img-and-data--small__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
 }
