@@ -45,3 +45,13 @@
 }
 /*-------------------------------------inf css----------------------------------*/
 /*----------------------------------img and data--big css------------------------*/
+.friends-img-and-data--big {
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.friends-img-and-data__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+}
