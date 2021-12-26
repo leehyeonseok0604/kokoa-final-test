@@ -99,3 +99,8 @@
 .friends-img-and-data--small__data p {
   margin: 0px;
 }
+.friends-img-and-data--small__data p:last-child {
+  color: rgba(1, 1, 1, 0.5);
+}
+/*-------------------------------------channel css-------------------------------*/
+/*-------------------------------------friends-bottombar--------------------------*/
