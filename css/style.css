@@ -153,3 +153,16 @@
 /*--------------------------------------more-contents-more css------------------------*/
 
 /*--------------------------------------find css----------------------------------*/
+/*--------------------------------------more css---------------------------------*/
+.more-contentsd {
+  margin-left: 15px;
+  display: inline-flex;
+}
+.more-contentsd div:last-child {
+  margin-left: 61px;
+}
+.suggestions {
+  margin-top: 20px;
+  border-top: 1px solid rgba(1, 1, 1, 0.1);
+  padding: 20px 15px;
+}
