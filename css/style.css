@@ -217,6 +217,26 @@
 /*--------------------------------------settings css-----------------------------*/
 
 /*--------------------------------------chat css----------------------------------*/
+.chat-bar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 15px;
+  margin-bottom: 50px;
+}
+.chat-bar span {
+  width: 33%;
+  font-size: 25px;
+}
+.chat-bar span:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.chat-bar span:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 .chating {
   display: flex;
   margin-top: 180px;
@@ -341,3 +361,22 @@
 .chat--write div button:active {
   outline: none;
 }
+.chat--write .chat--write div:first-child,
+.chat--write .fa-smile-wink,
+.chat--write button {
+  transition: opacity 0 0.3s ease-in-out;
+}
+
+.chat--write:focus-within .chat--write div:first-child,
+.chat--write:focus-within .fa-smile-wink,
+.chat--write:focus-within button {
+  opacity: 0;
+}
+.chat--write input:focus {
+  width: 98vw;
+  transform: translateX(-13%) translateY(-80px);
+}
+.chat--write:focus-within {
+  transform: translateY(80px);
+}
+/*--------------------------------------chat css----------------------------------*/
