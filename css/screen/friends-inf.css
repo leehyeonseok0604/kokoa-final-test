@@ -1,0 +1,19 @@
+/*------------------------inf css-------------------------------------*/
+.friends-inf {
+  margin-top: 15px;
+  padding: 0px 15px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  color: rgba(1, 1, 1, 0.5);
+}
+.friends-inf i:first-child {
+  margin-right: 2px;
+}
+.friends-inf i:last-child {
+  font-size: small;
+  margin-left: 2px;
+}
+/*-------------------------------------inf css----------------------------------*/

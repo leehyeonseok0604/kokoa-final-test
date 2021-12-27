@@ -5,6 +5,7 @@
 .header-bar span {
   width: 33%;
 }
+
 .header-bar span:nth-child(2) {
   display: flex;
   justify-content: center;

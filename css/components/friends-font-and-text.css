@@ -1,0 +1,21 @@
+/*--------------------------------font and text css---------------------------*/
+.friends-font-and-text {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+.friends-font-and-text > span {
+  font-weight: 600;
+  font-size: 30px;
+}
+.friends-font-and-text__i {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.friends-font-and-text__i i {
+  font-size: 18px;
+}
+/*---------------------font and text css----------------------------------*/
