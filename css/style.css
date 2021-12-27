@@ -81,3 +81,75 @@
   font-size: x-large;
 }
 /*-------------------------------------friends-bottombar--------------------------*/
+
+/*--------------------------------------find css----------------------------------*/
+
+/*--------------------------------------more-contents css-----------------------------*/
+.more-contents {
+  padding: 0px 15px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.more-contents__contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more-contents__contents i {
+  font-size: xx-large;
+}
+/*--------------------------------------more-contents css-----------------------------*/
+/*-------------------------------------recommend friends css--------------------------*/
+.recommended-friends {
+  padding: 0px 15px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(1, 1, 1, 0.1);
+  color: rgba(1, 1, 1, 0.5);
+  margin-bottom: 80px;
+}
+.no-friends {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(1, 1, 1, 0.5);
+  margin-bottom: 100px;
+}
+.open-chat {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(1, 1, 1, 0.5);
+  align-items: center;
+  border-top: 1px solid rgba(1, 1, 1, 0.1);
+  padding: 0px 15px;
+  padding-top: 10px;
+}
+/*-------------------------------------recommend friends css--------------------------*/
+/*--------------------------------------more-contents-more css------------------------*/
+.more-contents-more {
+  margin-top: 50px;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.more-contents-more p {
+  padding-top: 15px;
+  color: rgba(1, 1, 1, 0.5);
+}
+.more-contents-more p > b {
+  color: black;
+}
+.more-contents-more img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+.more-contents-more span {
+  right: 45px;
+  bottom: 83px;
+  position: absolute;
+  color: aliceblue;
+}
+/*--------------------------------------more-contents-more css------------------------*/
+
+/*--------------------------------------find css----------------------------------*/
