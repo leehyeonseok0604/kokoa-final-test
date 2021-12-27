@@ -181,3 +181,37 @@
 /*--------------------------------------more css---------------------------------*/
 
 /*--------------------------------------settings css-----------------------------*/
+.settings-bar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 15px;
+  margin-bottom: 50px;
+}
+.settings-bar span {
+  width: 33%;
+  font-size: 35px;
+}
+
+.settings-bar span:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.settings-bar span:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.settings__list__data {
+  border-bottom: 1px solid rgba(1, 1, 1, 0.1);
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.settings__list__data span {
+  font-size: 20px;
+  color: rgba(1, 1, 1, 0.6);
+}
+.settings__list__data span:first-child {
+  margin-right: 10px;
+}
+/*--------------------------------------settings css-----------------------------*/
