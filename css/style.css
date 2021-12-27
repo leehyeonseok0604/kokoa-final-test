@@ -80,6 +80,7 @@
 .friends-bottombar i {
   font-size: x-large;
 }
+
 /*-------------------------------------friends-bottombar--------------------------*/
 
 /*--------------------------------------find css----------------------------------*/
@@ -380,3 +381,23 @@
   transform: translateY(80px);
 }
 /*--------------------------------------chat css----------------------------------*/
+/*---------------------------------------please mobile css---------------------*/
+#please-mobile {
+  display: flex;
+  width: 100vw;
+  position: absolute;
+  height: 100vh;
+  background-color: red;
+  z-index: 99;
+  top: 0;
+  font-size: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 620px) {
+  #please-mobile {
+    display: none;
+  }
+}
+/*---------------------------------------please mobile css---------------------*/
